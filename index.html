@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border:5px solid pink;
+            display: grid;
+            background-color:whitesmoke;
+            grid-template-areas: 
+            'area1 area4 area3'
+            'area1 area5 area6'
+            'area7 area5 area2 '
+            ;
+            gap:5px;
+            padding:5px;
+            width:40%;
+            height:400px
+
+        }
+        .item{
+            border:2px solid pink;
+            padding:40px;
+           
+          
+        }
+        
+        .item1{
+            grid-area:area1;
+            background-image: url(https://tableaustreetart.fr/cdn/shop/files/tableau-cocktail-alcool-_1.png?v=1701203443&width=640);
+            background-size: 270px;
+            background-repeat:no-repeat;
+            background-position: center;
+           
+           
+        }
+        .item2{
+            grid-area:area7;
+            background-color: burlywood;
+            background-image: url(https://images.pexels.com/photos/7397134/pexels-photo-7397134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position:center;
+            background-size: 240px;
+            background-repeat: no-repeat;
+        
+        }
+        .item3{
+            grid-area:area3;
+            background-color: darkgreen;
+            background-image: url(https://madebymoi.fr/cdn/shop/files/reveil-retro-768x768_jpg.webp?v=1718280045&width=768);
+            background-position: center;
+            background-size: 220px;
+            background-repeat: no-repeat;
+        }
+        .item4{
+            grid-area:area4;
+            background-color: chartreuse;
+            background-image: url(https://5.imimg.com/data5/NP/GJ/XY/SELLER-15011588/natural-aloe-vera-leaf.jpg);
+            background-position: center;
+            background-size: 200px;
+        }
+        .item5{
+            grid-area:area5;
+            background-color: deeppink;
+            background-image: url(https://images.jdmagicbox.com/quickquotes/images_main/wall-mount-folding-table-wall-hanging-laptop-multi-utility-study-desk-378074138-u7mdb.jpg);
+            background-position: center;
+            background-size: 200px;
+
+        }
+        .item6{
+            grid-area:area6;
+            background-color: greenyellow;
+            background-image: url(https://m.media-amazon.com/images/I/816MIzKKcPL._AC_UF894,1000_QL80_.jpg);
+            background-position: center;
+            background-size: 200px;
+            
+        }
+        .item7{
+            grid-area:area2;
+            background-color: olive;
+            background-image: url(https://theorchardmaster.in/wp-content/uploads/2023/05/360_F_192557812_bSYDb675U2RsPI5RbicbHpleO2yzicJ9.jpg);
+            background-position: center;
+            background-size: 200px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
+        <div class="item item5"></div>
+        <div class="item item6"></div>
+        <div class="item item7"></div>
+    </div>
+</body>
+</html>
